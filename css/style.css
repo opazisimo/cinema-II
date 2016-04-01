@@ -1,0 +1,314 @@
+
+* {
+	font-family: Helvetica;
+
+}
+
+/* header */
+#head {
+	background: linear-gradient(to right, #ffffff, #f5f5f5);
+}
+
+header img {
+	width: 300px;
+	height: 40px;
+}
+
+#ba-cadenabusqueda {
+	background-color: #f5f5f5;
+	border: 1px solid #E0E0E0 ;
+	height: 30px;
+	background-color: #F8F8F8 ;
+	position: relative;
+	left: 120px;
+	top: 5px;
+}
+
+#lupita {
+	color: #E0E0E0;
+	position: relative;
+	bottom: 20px;
+	left: 240px;
+}
+
+#head h6 {
+	color:#E0E0E0;
+	position: relative;
+	top: 15px;
+	left: 50px;
+}
+
+/* banner */
+
+/*banner: imagenes */
+#banner img {
+	width: 100%;
+	height: 600px;
+}
+
+#icono {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left:280px;
+	top:290px;
+}
+/*banner: texto*/
+.menu {
+	width: 500px;
+	height: 500px;
+	background-color:transparent;
+	position: absolute;
+	right:100px;
+	top: 100px;
+	color:#D8D8D8 ;
+}
+
+.menu hr {
+	border: 0.5px solid #D0D0D0;
+	width: 100%;
+	margin: 20px 0px 20px 10px;
+}
+
+#boton-verde {
+	color: #27b47a;
+	border: 1px solid #27b47a;
+	border-radius: 5px;
+	padding: 10px;	
+	font-size: 12px;
+}
+
+.menu table {
+	font-size: 12px;
+}
+
+.izq {
+	width: 100px;
+	height: 25px;
+	font-weight: bold;
+}
+
+.menu p {
+	font-size: 10px;
+	display: inline;
+}
+
+.menu a {
+	text-decoration: none;
+	color:white;
+}
+
+#boton-amarillo {
+	background-color: #eeb723;
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	padding: 12px 30px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+#boton-naranjo {
+	background-color: #d17c19;
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	padding: 12px 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+
+/*movie-center*/
+
+#mustard {
+	background-color: #efb721;
+}
+
+.movie-center img {
+	width: 150px;
+	height: 200px;
+	margin: 20px;
+}
+
+/* video */
+
+#youtube {
+	width: 100%;
+	height: 300px;
+}
+
+/* news*/ 
+
+.book-ticket {
+	margin-top: 50px;
+}
+
+.book-ticket h1 {
+	color: black;
+	margin: 20px;
+}
+
+#bth3 {
+	color: #C0C0C0;
+	margin: 20px;
+}
+#bth4 {
+	color: #C0C0C0;
+	margin: 20px;
+}
+
+#bth5 {
+	color: #e69500;
+	margin: 20px;
+	font-size: 12px;
+}
+
+#boton-book-ticket {
+	color: white;
+	background-color: #d17c19;
+	width: 180px;
+	height: 70px;
+	border-radius:5%; 
+	margin-left: 20px;
+	padding: 25px;
+
+}
+
+#boton-book-ticket a {
+	color: white;
+	text-decoration: none;
+}
+/*
+
+
+
+#icono {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left:280px;
+	top:290px;
+}
+/*---parte imagen*/
+/*
+
+/*Seccion peliculas-center*/
+/*
+.peliculas-center {
+	background-color: #efb721;
+}
+.peliculas-center img {
+	width: 150px;
+	height: 200px;
+	margin: 10px;
+}
+
+/*Seccion video*/
+/*
+#youtube {
+	width: 100%;
+	height: 300px;
+}
+/*Seccion book-ticket*/
+/*
+.book-ticket {
+	margin-top: 50px;
+}
+
+.book-ticket h1 {
+	color: black;
+	margin: 20px;
+}
+
+#bth3 {
+	color: #C0C0C0;
+	margin: 20px;
+}
+#bth4 {
+	color: #C0C0C0;
+	margin: 20px;
+}
+
+#bth5 {
+	color: #e69500;
+	margin: 20px;
+	font-size: 12px;
+}
+
+#boton-book-ticket {
+	color: white;
+	background-color: #d17c19;
+	width: 180px;
+	height: 70px;
+	border-radius:5%; 
+	margin-left: 20px;
+	padding: 25px;
+
+}
+
+#boton-book-ticket a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* Seccion book-ticket: news*/
+/*
+#newsh2 {
+	color: #d1d1d1;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.news h4 {
+	color:black;
+	margin-left: 0px;
+}
+
+.news {
+	color:#d1d1d1;
+	font-size: 10px;
+}
+
+.news hr {
+	width: 100%;
+	border: 1px solid 	#F0F0F0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.news a {
+	color: #ffa500;
+	text-decoration: none;
+	font-size: 12px;
+}
+/*Seccion peliculas-bottom*/
+/*
+.peliculas-bottom {
+	margin-top: 50px;
+}
+.peliculas-bottom img {
+	width: 100%;
+	height: 300px;
+}
+
+/*Seccion footer*/
+/*
+footer {
+	background-color: #F3F3F3;
+	color:#cbcbcb ;
+	font-size: 12px;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+#plittle {
+	font-size: 10px;
+}
+
